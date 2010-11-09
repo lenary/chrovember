@@ -1,0 +1,19 @@
+{
+  "name": "HN Submit",
+  "version": "0.1",
+  "description": "Submit to HN. Icon from http://openiconlibrary.sourceforge.net/",
+  "permissions" : [
+    "http://news.ycombinator.com/*",
+    "tabs"
+  ],
+  "browser_action":{
+    "default_icon":"icon-19.png",
+    "default_title":"HN Submit",
+    "default_popup":"hn_submit_popup.html"
+  },
+  "icons":{
+    "128":"icon-128.png",
+    "48" :"icon-48.png",
+    "16" :"icon-16.png"
+  }
+}
